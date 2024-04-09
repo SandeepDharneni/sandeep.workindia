@@ -1,0 +1,97 @@
+/* App.css */
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav form {
+  display: flex;
+}
+
+nav input[type='text'] {
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+nav button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #45a049;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Movie list styles */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Movie card styles */
+.movie-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.movie-card h3 {
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Single movie page styles */
+.single-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-movie img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.single-movie p {
+  text-align: center;
+}
